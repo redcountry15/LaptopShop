@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Biodata">
+
+    <TextView
+        android:id="@+id/tvAobut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me"
+        android:textColor="#111"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        />
+
+    <ImageView
+        android:layout_below="@id/tvAobut"
+        android:id="@+id/gambarku"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/fal"
+        />
+    <TextView
+        android:id="@+id/Namaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambarku"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Mochamad Naufal Abdi Andika"
+        />
+    <TextView
+        android:id="@+id/Emailku"
+        android:layout_below="@id/Namaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nfrostyy17@gmail.com"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_marginTop="12dp"
+        />
+
+</RelativeLayout>
